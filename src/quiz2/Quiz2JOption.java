@@ -22,7 +22,7 @@ public class Quiz2JOption {
 	}
 	public static boolean ResultDisplay(){
 		boolean result = false;
-				if (Quiz2.Authentication(username, jOP_password)){ JOptionPane.showMessageDialog(null, "Welcome: " + username);
+				if (Quiz2.Authentication(username, password)){ JOptionPane.showMessageDialog(null, "Welcome: " + username);
 				result = true; }
 				else {JOptionPane.showMessageDialog(null, "Wrong Username or Password! Please Try Again.");
 				result = false;
